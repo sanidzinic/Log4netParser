@@ -6,4 +6,7 @@ This console app (written in .NET 8) will let you parse existing logfiles which 
 2024-01-12 19:33:53,904 [1] DEBUG My.Program [(null)] - test  
 2024-01-12 19:33:53,904 [1] DEBUG My.Program [(null)] - test  
   
-For more examples, check out the log4net_examplefile.txt
+For more examples, check out the log4net_examplefile.txt  
+## Usage & Configuration
+* You can adapt the RegexSplit & RegexParse Patterns in the appsettings.json file. Currently it's based on standard / official log4net LogFileAppender.  
+* The logfile is currently passed through my provided example - you have to change it to your own one
