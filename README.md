@@ -9,4 +9,4 @@ This console app (written in .NET 8) will let you parse existing logfiles which 
 For more examples, check out the log4net_examplefile.txt  
 ## Usage & Configuration
 * You can adapt the RegexSplit & RegexParse Patterns in the appsettings.json file. Currently it's based on standard / official log4net LogFileAppender.  
-* The logfile is currently passed through my provided example - you have to change it to your own one
+* The whole logfile-content is currently passed 1:1 from my provided example (copied on build to bin-folder) - you have to change it to your own one
