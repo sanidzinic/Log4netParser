@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "scomp.main.console.logparser", "scomp.console.log4netlogparser\scomp.main.console.logparser.csproj", "{B36486D5-57D7-49F1-A4AF-3AE274748780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sd.main.console.logparser", "sd.main.console.log4netlogparser\sd.main.console.logparser.csproj", "{B36486D5-57D7-49F1-A4AF-3AE274748780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scomp.main.console.contracts", "scomp.main.console.contracts\scomp.main.console.contracts.csproj", "{0676798B-CD0A-4215-9D46-9507BED20AB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sd.main.console.contracts", "sd.main.console.contracts\sd.main.console.contracts.csproj", "{0676798B-CD0A-4215-9D46-9507BED20AB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

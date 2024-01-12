@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
-using scomp.main.console.contracts;
-using scomp.main.console.logparser.Helpers;
+using sd.main.console.contracts;
+using sd.main.console.logparser.Helpers;
+
 
 // Initialize Appsettings.json and Set BasePath
 var builder = new ConfigurationBuilder()

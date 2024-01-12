@@ -1,7 +1,7 @@
-﻿using scomp.main.console.contracts;
+﻿using sd.main.console.contracts;
 using System.Text.RegularExpressions;
 
-namespace scomp.main.console.logparser.Helpers
+namespace sd.main.console.logparser.Helpers
 {
     public class Log4netParser
     {

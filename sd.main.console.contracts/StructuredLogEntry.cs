@@ -1,4 +1,4 @@
-﻿namespace scomp.main.console.contracts
+﻿namespace sd.main.console.contracts
 {
     public class StructuredLogEntry
     {

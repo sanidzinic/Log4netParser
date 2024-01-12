@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\scomp.main.console.contracts\scomp.main.console.contracts.csproj" />
+    <ProjectReference Include="..\sd.main.console.contracts\sd.main.console.contracts.csproj" />
   </ItemGroup>
 
   <ItemGroup>
