@@ -1,0 +1,36 @@
+2024-01-12 19:33:53,904 [1] DEBUG My.Program [(null)] - test
+2024-01-12 19:34:45,785 [1] DEBUG Program [(null)] - Application opened
+2024-01-12 19:34:45,882 [1] ERROR Program [(null)] - This LogLine would be a Logline over multiple lines
+The First Line
+The Second Line
+2024-01-12 19:34:45,785 [1] DEBUG Program [(null)] - Application opened
+2024-01-12 19:34:45,882 [1] ERROR Program [(null)] - This LogLine would be a Logline over multiple lines
+The First Line
+The Second Line
+2024-01-12 19:34:45,785 [1] DEBUG Program [(null)] - Application opened
+2024-01-12 19:34:45,882 [1] ERROR Program [(null)] - This LogLine would be a Logline over multiple lines
+The First Line
+The Second Line
+<AnyXmlElementStart>
+<Property>A</Property>
+<Description>Another Desc</Description>
+</AnyXmlElementStart>
+2024-01-12 19:34:45,785 [1] DEBUG Program [(null)] - Application opened
+2024-01-12 19:34:45,882 [1] ERROR Program [(null)] - This LogLine would be a Logline over multiple lines
+The First Line
+The Second Line
+<AnyXmlElementStart>
+<Property>A</Property>
+<Description>Another Desc</Description>
+</AnyXmlElementStart>
+The Third Line
+THe Fourth One
+<AnyXmlElementStart>
+<Property>A</Property>
+<Description>Another Desc</Description>
+</AnyXmlElementStart>
+And so on .... This will be everything parsed correct
+//That would be the last line
+2024-01-12 19:35:59,337 [1] WARN  Program [(null)] - This line will be a line after the multiline entries
+2024-01-12 19:35:59,338 [1] DEBUG Program [(null)] - Application ended
+2024-01-12 19:35:59,350 [1] INFO  Program [(null)] - WindowsIdentity User was DESKTOP-0IN1DF5\dzini (WindowsIdentity.GetCurrent().Name)!
