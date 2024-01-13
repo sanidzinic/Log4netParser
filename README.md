@@ -1,4 +1,4 @@
-# sd.console.log4netlogparser
+# Log4netParser C# .Net 8
 This console app (written in .NET 8) will allow you to parse existing log files stored locally in the filesystem and give you the chance to migrate your logs, for example, to a database.  
 > [!IMPORTANT]
 > This logfile-parser is based on the default appender for log4net, your logs should look like this to achieve a result without exceptions:
