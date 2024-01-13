@@ -16,4 +16,3 @@ string patternParse = config.GetSection("Log4netRegexParse").Value;
 // Parse it!
 Log4netParser parser = new Log4netParser(sampleFile,patternSplit,patternParse);
 List<StructuredLogEntry> result = parser.GetStructuredResult();
-int a = 0;
