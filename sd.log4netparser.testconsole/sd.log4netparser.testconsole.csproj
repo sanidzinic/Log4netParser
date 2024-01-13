@@ -13,7 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\sd.main.console.contracts\sd.main.console.contracts.csproj" />
+    <ProjectReference Include="..\sd.log4netparser.common\sd.log4netparser.common.csproj" />
+    <ProjectReference Include="..\sd.log4netparser.contracts\sd.log4netparser.contracts.csproj" />
   </ItemGroup>
 
   <ItemGroup>

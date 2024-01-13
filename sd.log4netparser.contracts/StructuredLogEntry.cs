@@ -1,4 +1,4 @@
-﻿namespace sd.main.console.contracts
+﻿namespace sd.log4netparser.contracts
 {
     public class StructuredLogEntry
     {

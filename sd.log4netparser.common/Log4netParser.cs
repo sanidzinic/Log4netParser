@@ -1,7 +1,8 @@
-﻿using sd.main.console.contracts;
+﻿
+using sd.log4netparser.contracts;
 using System.Text.RegularExpressions;
 
-namespace sd.main.console.logparser.Helpers
+namespace sd.log4etparser.common
 {
     public class Log4netParser
     {

@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
-using sd.main.console.contracts;
-using sd.main.console.logparser.Helpers;
+using sd.log4etparser.common;
+using sd.log4netparser.contracts;
+
 
 
 // Initialize Appsettings.json and Set BasePath
@@ -16,3 +17,4 @@ string patternParse = config.GetSection("Log4netRegexParse").Value;
 // Parse it!
 Log4netParser parser = new Log4netParser(sampleFile,patternSplit,patternParse);
 List<StructuredLogEntry> result = parser.GetStructuredResult();
+int a = 0;
